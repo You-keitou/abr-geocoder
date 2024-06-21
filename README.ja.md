@@ -248,7 +248,7 @@ input,output,matching_level,lg_code,pref,city,machiaza,machiaza_id,blk_num,blk_i
     },
     "result": {
       "output": "東京都千代田区紀尾井町1-3",
-      "matching_level": 8,
+      "matching_level": "residential_detail",
       "lg_code": "131016",
       "pref": "東京都",
       "city": "千代田区",
@@ -297,7 +297,7 @@ input,output,matching_level,lg_code,pref,city,machiaza,machiaza_id,blk_num,blk_i
         },
         "result": {
           "output": "東京都千代田区紀尾井町1-3",
-          "matching_level": 8,
+          "matching_level": "residential_detail",
           "lg_code": "131016",
           "pref": "東京都",
           "city": "千代田区",
