@@ -257,7 +257,7 @@ components:
               other:
                 type: string
                 description: マッチングできなかった文字列
-                example: 19階、20階
+                example: "19階、20階"
               lat:
                 type: number
                 description: 緯度
