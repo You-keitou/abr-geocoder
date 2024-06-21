@@ -23,26 +23,26 @@
  */
 export enum MatchLevel {
   // 都道府県も判別できなかった
-  UNKNOWN = 0,
+  UNKNOWN = 'unknown',
 
   // 都道府県まで判別できた
-  PREFECTURE = 1,
+  PREFECTURE = 'prefecture',
 
   // 市区町村まで判別できた
-  ADMINISTRATIVE_AREA = 2,
+  ADMINISTRATIVE_AREA = 'city',
 
   // 大字・町名まで判別できた
-  TOWN_LOCAL = 3,
+  TOWN_LOCAL = 'machiaza',
 
   // 町字まで判別できた
-  MACHIAZA = 4,
+  MACHIAZA = 'machiaza_detail',
 
   // 住居表示の街区までの判別ができた
-  RESIDENTIAL_BLOCK = 7,
+  RESIDENTIAL_BLOCK = 'residential_block',
 
   // 住居表示の街区符号・住居番号までの判別ができた
-  RESIDENTIAL_DETAIL = 8,
+  RESIDENTIAL_DETAIL = 'residential_detail',
 
   // 地番まで判別ができた
-  PARCEL = 10,
+  PARCEL = 'parcel',
 }
