@@ -193,7 +193,7 @@ components:
                   residential_block | 住居表示の街区までの判別ができた
                   residential_detail | 住居表示の街区符号・住居番号までの判別ができた
                   parcel | 地番まで判別ができた
-                example: 8
+                example: "residential_detail"
               lg_code:
                 type: string
                 description: 全国地方公共団体コード
