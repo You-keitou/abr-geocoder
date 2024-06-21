@@ -40,7 +40,7 @@ This command requires **node.js version 18 or above**.
 ## Install
 
 ```
-$ npm install @digital-go-jp/abr-geocoder
+$ npm install -g @digital-go-jp/abr-geocoder
 ```
 
 ## Usage
