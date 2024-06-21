@@ -330,11 +330,11 @@ input,output,matching_level,lg_code,pref,city,machiaza,machiaza_id,blk_num,blk_i
 `level` プロパティは、マッチしたアドレスの精度を示しています。
 | level | description |
 |-------|-------------|
-| 0  | 全く判定できなかった |
-| 1  | 都道府県まで判別できた |
-| 2  | 市区町村まで判別できた |
-| 3  | 大字・町名まで判別できた |
-| 4  | 丁目・小字まで判別できた |
-| 7  | 住居表示の街区までの判別ができた |
-| 8  | 住居表示の街区符号・住居番号までの判別ができた |
-| 10 | 地番まで判別ができた |
+| unknown            | 全く判定できなかった |
+| prefecture         | 都道府県まで判別できた |
+| city               | 市区町村まで判別できた |
+| machiaza           | 大字・町名まで判別できた |
+| machiaza_detail    | 丁目・小字まで判別できた |
+| residential_block  | 住居表示の街区までの判別ができた |
+| residential_detail | 住居表示の街区符号・住居番号までの判別ができた |
+| parcel             | 地番まで判別ができた |

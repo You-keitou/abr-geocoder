@@ -334,11 +334,11 @@ The `level` property denotes the address maching level.
 
 | level | description |
 |-------|-------------|
-|  0 | Could not detect at all. |
-|  1 | Could detect only prefecture level. |
-|  2 | Could detect prefecture and city levels. |
-|  3 | Could detect prefecture, city, and a oaza town name. |
-|  4 | Could detect prefecture, city, oaza town name and a chome koaza. |
-|  7 | Could detect prefecture, city, a town ID, and street name level. |
-|  8 | Could detect prefecture, city, a town ID, street name, and extra information, such as suite number. |
-| 10 | Could detect prefecture, city, a town ID and parcel.
+| unknown            | Could not detect at all. |
+| prefecture         | Could detect only prefecture level. |
+| city               | Could detect prefecture and city levels. |
+| machiaza           | Could detect prefecture, city, and a oaza town name. |
+| machiaza_detail    | Could detect prefecture, city, oaza town name and a chome koaza. |
+| residential_block  | Could detect prefecture, city, a town ID, and street name level. |
+| residential_detail | Could detect prefecture, city, a town ID, street name, and extra information, such as suite number. |
+| parcel             | Could detect prefecture, city, a town ID and parcel. |
