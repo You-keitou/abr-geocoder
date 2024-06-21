@@ -40,7 +40,7 @@ API 起動に Docker を使用しているため、Docker のインストール�
 
 #### abr-geocoder ディレクトリに移動
 ```
-$ cd {インストール先パス}/abr-geocoder
+$ cd {インストール先パス}/abr-geocoder/docker/api
 ```
 #### docker build の実施
 ```

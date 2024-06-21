@@ -44,7 +44,7 @@ See [Download](./README.md#download).
 
 #### Go to abr-geocoder directory
 ```
-$ cd {Install to Path}/abr-geocoder
+$ cd {Install to Path}/abr-geocoder/docker/api
 ```
 #### Execute docker build
 ```
